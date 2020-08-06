@@ -8,10 +8,6 @@ target 'PDFPOC' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'RNReactNativePdfLib', :path => '../node_modules/react-native-pdf-lib'
-
-  pod 'RNImageToPdf', :path => '../node_modules/react-native-image-to-pdf'
-
   pod 'RNFS', :path => '../node_modules/react-native-fs'
 
   target 'PDFPOCTests' do
